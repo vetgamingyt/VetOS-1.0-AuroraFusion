@@ -1,0 +1,45 @@
+# VetOS Prebuild Kit – Git Ignore Rules
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS system files
+.DS_Store
+
+# Linux temp files
+*.swp
+*.out
+
+# PowerShell artifacts
+*.ps1~
+*.log
+
+# Build artifacts
+*.iso
+*.sha256
+*.bmp
+*.png
+
+# Export folders
+Build/Exports/
+Build/ISORoot/
+
+# IDE folders (if using VS Code or others)
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Node/npm (if used for GitHub Pages or tooling)
+node_modules/
+dist/
+.cache/
+
+# GitHub Pages build artifacts
+_site/
+.jekyll-cache/
